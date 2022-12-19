@@ -61,6 +61,7 @@ function draw(){
 
    if(scorerightWrist > 0.2)
    {
+      song1.stop();
       circle(rightWristX,rightWristY,20);
       song2.play();
       document.getElementById('song_name').innerHTML = "Song Name: Show me the meaning of";
